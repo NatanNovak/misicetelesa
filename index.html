@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mišične skupine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Mišične skupine</h1>
+  <div class="controls">
+    <input type="text" id="search" placeholder="Išči mišico...">
+  </div>
+  <nav>
+    <button data-filter="vse" class="active">Vse</button>
+    <button data-filter="zgornji_del">Zgornji del</button>
+    <button data-filter="spodnji_del">Spodnji del</button>
+  </nav>
+</header>
+
+<div class="container">
+  <aside>
+    <h2>🤔 Ali ste vedeli?</h2>
+    <p class="fact"></p>
+    <button id="new-fact">Naslednje dejstvo</button>
+  </aside>
+
+  <main id="muscles"></main>
+
+  <aside>
+    <div id="quiz">
+      <h2>Preverite znanje</h2>
+      <div id="qna"></div>
+      <button id="start">Začni kviz</button>
+      <div id="results" hidden>
+        <h3>Rezultat: <span id="score">0</span>/5</h3>
+        <button id="retry">Poskusi znova</button>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<dialog>
+  <form method="dialog">
+    <h2></h2>
+    <p class="latin"></p>
+    <div class="content"></div>
+    <button>✕</button>
+  </form>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>

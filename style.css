@@ -1,0 +1,277 @@
+:root {
+  --primary: #3498db;
+}
+
+* {
+  box-sizing: border-box;
+  transition: 0.3s;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+#search {
+  padding: 0.8rem;
+  border-radius: 2rem;
+  border: none;
+  width: min(70%, 400px);
+  font-size: 1rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 2rem;
+  background: #444;
+  color: white;
+  font-size: 0.9rem;
+  margin: 0.5rem;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+.active {
+  background: var(--primary);
+  transform: scale(1.05);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 250px 1fr 250px;
+  max-width: 1400px;
+  margin: 2rem auto;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+#muscles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+  place-items: center;
+}
+
+article {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 320px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+article h3 {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  color: #222;
+}
+
+article p {
+  color: #666;
+  font-style: italic;
+}
+
+article img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin: 1rem 0;
+}
+
+dialog {
+  border: none;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: min(90%, 700px);
+  background: white;
+  text-align: center;
+}
+
+dialog h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+dialog .latin {
+  color: var(--primary);
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+dialog .content {
+  text-align: center;
+  padding: 1rem;
+}
+
+dialog .exercise {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem auto;
+  text-align: left;
+  max-width: 500px;
+}
+
+dialog .exercise h4 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+dialog .exercise p {
+  color: #666;
+  margin: 0;
+}
+
+#quiz {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.answers {
+  display: grid;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.answer {
+  background: #444 !important;
+  color: white !important;
+  padding: 0.8rem !important;
+  text-align: left;
+  border-radius: 50px !important;
+  cursor: pointer;
+  border: none;
+}
+
+/* ✅ Pravilna/napačna barva */
+.answer.correct {
+  background-color: #4CAF50 !important;
+  color: white !important;
+}
+
+.answer.incorrect {
+  background-color: #f44336 !important;
+  color: white !important;
+}
+
+#results {
+  margin-top: 2rem;
+}
+
+#results h3 {
+  color: var(--primary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ✅ Modal centriranje */
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+dialog[open] {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  aside {
+    order: 2;
+  }
+}
+
+aside h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+aside .fact {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  font-style: italic;
+  color: #555;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid var(--primary);
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#new-fact {
+  margin-top: 1rem;
+  background: var(--primary);
+  color: white;
+  font-weight: bold;
+}
+
+dialog h2 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+dialog .content > .description {
+  margin-bottom: 1.5rem;
+}
+
+dialog .exercise {
+  margin-top: 1rem;
+  background: #f0f4f8;
+  border-left: 5px solid var(--primary);
+}
+
+dialog .exercise h4::before {
+  content: "🏋️ ";
+}

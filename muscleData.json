@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Trebušne mišice",
+    "image": "assets/muscles/abs.png",
+    "shortDescription": "Musculi abdominis",
+    "longDescription": "Trebušne mišice skrbijo za stabilnost telesa, podpirajo hrbtenico in omogočajo upogibanje trupa. Redna vadba teh mišic preprečuje bolečine v hrbtu.",
+    "exercises": [
+      {
+        "level": "Začetnik",
+        "name": "Dvigovanje kolen v ležečem položaju",
+        "description": "Ležite na hrbtu, roke ob telesu. Dvigujte kolena proti prsnem košu in počasi spuščajte nazaj. Ponovite 10-15x v 3 serijah."
+      },
+      {
+        "level": "Srednji",
+        "name": "Kolesarjenje v ležečem položaju",
+        "description": "Ležite na hrbtu, roke za glavo. Izmenično dvigujte desni komolec proti levemu kolenu in obratno. 15 ponovitev na vsako stran, 3 serije."
+      },
+      {
+        "level": "Napredni",
+        "name": "Dvigovanje nog v visečem položaju",
+        "description": "Viseč na opori za roke, dvigujte noge v kotu 90 stopinj ali celo do prstov nad glavo. 8-12 ponovitev, 3 serije."
+      }
+    ],
+    "group": "trup"
+  },
+  {
+    "name": "Hrbtne mišice",
+    "image": "assets/muscles/back.png",
+    "shortDescription": "Musculus trapezius in musculus latissimus dorsi",
+    "longDescription": "Hrbtne mišice so ključne za pravilno držo in zaščito hrbtenice. Sestavljajo jih številne mišice, vključno s širokimi hrbtnimi mišicami in mišicami vzdolž hrbtenice.",
+    "exercises": [
+      {
+        "level": "Začetnik",
+        "name": "Vpogib trupa",
+        "description": "Ležite na trebuhu, roke ob telesu. Dvigujte prsni koš s tal in počasi spuščajte. 10-12 ponovitev, 3 serije."
+      },
+      {
+        "level": "Srednji",
+        "name": "Vlečenje kabla k prsnemu košu",
+        "description": "Na napravi za vleko kabla potegnite ročaj proti prsnemu košu, medtem ko stiskate lopatice. 12 ponovitev, 3 serije."
+      },
+      {
+        "level": "Napredni",
+        "name": "Mrtvi dvig",
+        "description": "Dvigovanje uteži s tal do pokončne drže z upoštevanjem pravilne tehnike. 6-8 ponovitev, 4 serije."
+      }
+    ],
+    "group": "zgornji_del"
+  },
+  {
+    "name": "Dvoglava nadlahtnica (biceps)",
+    "image": "assets/muscles/biceps.png",
+    "shortDescription": "Musculus biceps brachii",
+    "longDescription": "Dvoglava nadlahtnica je mišica na sprednji strani nadlahtnice. Poleg upogibanja komolca sodeluje tudi pri vrtenju podlakti navzgor.",
+    "exercises": [
+      {
+        "level": "Začetnik",
+        "name": "Upogibanje rok z utežmi",
+        "description": "Stojte ali sedite z utežmi v rokah, dlani obrnjene naprej. Upogibajte roke v komolcih. 12 ponovitev, 3 serije."
+      },
+      {
+        "level": "Srednji",
+        "name": "Upogib rok s palico",
+        "description": "Stojte z nogami na širini ramen, dvignite palico z utežmi s spodnjim oprijemom in jo dvigujte proti prsnem košu. 10 ponovitev, 4 serije."
+      },
+      {
+        "level": "Napredni",
+        "name": "Vzgibi z ozkim oprijemom",
+        "description": "Na napravi za zgibe se oprijemite z ozkim oprijemom (dlani obrnjene proti sebi) in vlecite telo navzgor. 8 ponovitev, 4 serije."
+      }
+    ],
+    "group": "zgornji_del"
+  },
+  {
+    "name": "Mečne mišice",
+    "image": "assets/muscles/calves.png",
+    "shortDescription": "Musculus gastrocnemius",
+    "longDescription": "Mečne mišice so mišice na zadnji strani spodnjega dela noge. Skrbijo za pomik stopala navzdol in so ključne za hojo, tekaške in skakalne gibe.",
+    "exercises": [
+      {
+        "level": "Začetnik",
+        "name": "Dviganje na prste ob steni",
+        "description": "Opirajte se ob steno, dvigujte se na prste in počasi spuščajte. 15-20 ponovitev, 3 serije."
+      },
+      {
+        "level": "Srednji",
+        "name": "Dviganje na prste na stopnici",
+        "description": "Stojte na stopnici s petami izven nje, dvigujte se na prste. 12-15 ponovitev, 4 serije."
+      },
+      {
+        "level": "Napredni",
+        "name": "Dviganje na eni nogi z utežjo",
+        "description": "Dvigovanje na prste na eni nogi z dodano utežjo. 8-10 ponovitev na vsako nogo, 3 serije."
+      }
+    ],
+    "group": "spodnji_del"
+  },
+  {
+    "name": "Prsne mišice",
+    "image": "assets/muscles/chest.png",
+    "shortDescription": "Musculus pectoralis major",
+    "longDescription": "Prsne mišice pokrivajo sprednji del prsnega koša. Omogočajo približevanje rok in so ključne za vse potiskalne gibe.",
+    "exercises": [
+      {
+        "level": "Začetnik",
+        "name": "Sklepanje rok v ležečem položaju",
+        "description": "Ležite na hrbtu, roke iztegnjene v stran, počasi jih sklepajte pred seboj. 12 ponovitev, 3 serije."
+      },
+      {
+        "level": "Srednji",
+        "name": "Pritiski z utežmi na klopi",
+        "description": "Ležite na klopi, dvigujte uteži navzgor in jih počasi spuščajte. 10 ponovitev, 4 serije."
+      },
+      {
+        "level": "Napredni",
+        "name": "Dvigovanje na drogih",
+        "description": "Dvigovanje telesa z uporabo lastne teže na napravi za dviganje. 6-8 ponovitev, 3 serije."
+      }
+    ],
+    "group": "zgornji_del"
+  },
+  {
+    "name": "Ramenske mišice",
+    "image": "assets/muscles/delts.png",
+    "shortDescription": "Musculus deltoideus",
+    "longDescription": "Ramenske mišice sestavljajo tri glave: sprednja, stranska in zadnja. Skrbijo za gibanje roke v vseh smeri in so ključne za stabilnost ramenskega sklepa.",
+    "exercises": [
+      {
+        "level": "Začetnik",
+        "name": "Dvigovanje rok v stran",
+        "description": "Z lahkimi utežmi dvigujte roke v stran do višine ramen. 12 ponovitev, 3 serije."
+      },
+      {
+        "level": "Srednji",
+        "name": "Vojaški potisk",
+        "description": "Dvigovanje uteži nad glavo z upoštevanjem pravilne tehnike. 10 ponovitev, 4 serije."
+      },
+      {
+        "level": "Napredni",
+        "name": "Arnoldov potisk",
+        "description": "Potisk uteži z vrtenjem zapestja med dvigovanjem. 8 ponovitev, 3 serije."
+      }
+    ],
+    "group": "zgornji_del"
+  },
+  {
+    "name": "Zadnja stegenska mišica",
+    "image": "assets/muscles/hams.png",
+    "shortDescription": "Musculus biceps femoris",
+    "longDescription": "Zadnji stegenski mišici potekata po zadnji strani stegna. Sodelujeta pri upogibanju kolena in podporo med hojo, tekom in skoki.",
+    "exercises": [
+      {
+        "level": "Začetnik",
+        "name": "Ležeče upogibanje nog",
+        "description": "Ležite na trebuhu, upogibajte noge v kolenih proti zadnici. 12 ponovitev, 3 serije."
+      },
+      {
+        "level": "Srednji",
+        "name": "Mrtvi dvig z ravnim hrbtom",
+        "description": "Dvigovanje uteži s poudarkom na delovanju zadnjih stegenskih mišic. 10 ponovitev, 4 serije."
+      },
+      {
+        "level": "Napredni",
+        "name": "Nordijski upogibi",
+        "description": "Napredna vaja za zadnje stegenske mišice z lastno težo. 6-8 ponovitev, 3 serije."
+      }
+    ],
+    "group": "spodnji_del"
+  },
+  {
+    "name": "Stegenske mišice (kvadricepsi)",
+    "image": "assets/muscles/quads.png",
+    "shortDescription": "Musculus quadriceps femoris",
+    "longDescription": "Stegenske mišice so štiriglava mišica na sprednji strani stegna. So glavni umeščenec pri iztezanju kolena in ključni za vse vrste hoje, teka, skokov in počepov.",
+    "exercises": [
+      {
+        "level": "Začetnik",
+        "name": "Počepi brez uteži",
+        "description": "Počepi z lastno težo, pazite na pravilno tehniko. 12-15 ponovitev, 3 serije."
+      },
+      {
+        "level": "Srednji",
+        "name": "Izpadi naprej",
+        "description": "Izmenični izpadi naprej z lastno težo ali z utežmi. 10 ponovitev na vsako nogo, 3 serije."
+      },
+      {
+        "level": "Napredni",
+        "name": "Počepi s palico",
+        "description": "Globoki počepi z dodatno težo na ramenih. 6-8 ponovitev, 4 serije."
+      }
+    ],
+    "group": "spodnji_del"
+  },
+  {
+    "name": "Troglava nadlahtnica (triceps)",
+    "image": "assets/muscles/triceps.png",
+    "shortDescription": "Musculus triceps brachii",
+    "longDescription": "Troglava nadlahtnica je mišica na zadnji strani nadlahtnice. Je glavni umeščenec pri iztezanju komolca in ključna za vse potiskalne gibe.",
+    "exercises": [
+      {
+        "level": "Začetnik",
+        "name": "Iztegovanje rok nad glavo",
+        "description": "Z eno utežjo v obeh rokah iztegujte roke nad glavo. 12 ponovitev, 3 serije."
+      },
+      {
+        "level": "Srednji",
+        "name": "Dips na klopi",
+        "description": "Dvigovanje telesa med dvema klopema s poudarkom na tricepsih. 10 ponovitev, 3 serije."
+      },
+      {
+        "level": "Napredni",
+        "name": "Ožji potisk na klopi",
+        "description": "Potisk palice z ozkim oprijemom na ravni klopi. 8 ponovitev, 4 serije."
+      }
+    ],
+    "group": "zgornji_del"
+  }
+]
