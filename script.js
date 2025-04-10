@@ -28,7 +28,7 @@ const DOM = {
       }
     );
 
-    DOM.fact.textContent = facts[0]; // ✅ Dodaj sem
+    DOM.fact.textContent = facts[0]; 
   });
 
   
@@ -139,7 +139,7 @@ const DOM = {
       this.score = 0;
       document.getElementById('results').hidden = true;
       document.getElementById('start').hidden = true;
-      this.questions = this.shuffleArray(this.questions); // shuffle order
+      this.questions = this.shuffleArray(this.questions); 
       this.showQuestion();
     },
   
@@ -185,7 +185,7 @@ const DOM = {
     showResult() {
       document.getElementById('qna').innerHTML = '';
       document.getElementById('results').hidden = false;
-      document.getElementById('start').hidden = true; // skrij "Začni kviz"
+      document.getElementById('start').hidden = true; 
       document.getElementById('score').textContent = this.score;
     },
   
